@@ -7,38 +7,88 @@
   color: #fcd765;
 }
 
-.bg-custom {
-  background-color: #323232;
+.container-fluid {
+  padding: 0 12%;
 }
 
+.hero-container {
+  padding: 8% 0;
+}
+
+.hero-section {
+  background-color: #8d91911d;
+}
+
+.nav-bg{
+  background-color: #8d919183;
+
+}
+
+.hero-text {
+  line-height: 5rem;
+  width: 50%
+}
+.bg-custom {
+  background-color: rgba(0, 0, 0, 0.817);
+}
+
+.logo {
+  font-size: 35px;
+}
 .logo-text {
   color: #95c37f;
-  font-size: 35px;
 }
 .logo-text:hover {
   color: #95c37f;
 }
 
 .cta-btn {
+  background-color: #51903e;
   color: #fff;
   outline: none;
   border: none;
 }
 .cta-btn:hover {
-  background-color: #53af37;
+  background-color:yellowgreen;
   color: #fff;
 }
 
 .nav-link {
   color: #fff;
+  font-size: 17px;
 }
 .nav-link:hover {
   color: #53af37;
+  border-bottom: 1px solid #53af37;
 }
-.nav-link:active {
+.nav-link-active {
   color: #53af37;
 }
-.hero-section {
-    background-color: #8d91911d;
+
+.details-link:hover {
+  border-bottom: 1px solid #323232;
 }
 
+.text-bg-pricing {
+  background-color: #51903e;
+}
+.free-card {
+
+}
+
+/* responsive styles */
+@media (max-width: 767px) { 
+  .hero-text {
+    line-height: 3.5rem;
+    width: 100%
+  }
+  p {
+    text-align: start;
+    line-height: 1.8rem;
+  }
+.enterprise-card{
+  margin-top: 28px;
+}
+
+
+}
